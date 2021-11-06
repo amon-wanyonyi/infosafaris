@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  color: white;
+  background-image: url(../Images/wildbeest.jpg);
+  background-size: contain;
+  }
+.topnav a{
+  color: white;
+  text-decoration: none;
+  font-family: Roboto Mono;
+  padding: 20px;
+  font-size: 24px;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.top-about h3{
+  font-family: Roboto Mono;
+  font-size: 64px;
+  text-align: center; 
+  margin: 0;
+}
+.top-about p{
+  text-align: center;
+  font-size: 24px;
+  font-family: Roboto;
+}
+nav h2{
+  font-size: 36px;
+  font-family: Sedan SC;
+  position: absolute;
+  top:-5px;
+  left: 0;
+}
+.logo hr{
+  position: absolute;
+  top:25px;
+  left: 20px;
+  width: 10%;  
+  height: 2px;   
+  background-color: white;
+  border-width: 4px;  
+}
+button{
+  border:2px solid rgba(196, 196, 196, 0.3);
+  padding:20px;
+  position: relative;
+  left:40%;
+  background-color: rgba(196, 196, 196, 0.3);
+  padding-right:100px;
+  padding-left: 100px;
+  border-radius: 50px;
+  color: white;
+  font-size: 24px;
+  margin:50px 0 50px 0;
+  font-weight: bold;
+}
+.who-we-are{
+  background-color: #DEE6EE;
+}
+.who-we-are-flex{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.who-we-are-image,.who-we-are-text{
+  width: 50%;
+}
+.who-we-are-image img{
+  width: 100%;
+}
+.who-we-are h3{
+  color:#102406;
+  font-size: 48px;
+}
+.who-we-are-text{
+  font-family: Roboto Mono;
+  font-size:24px;
+}
+.values{
+  margin: 30px 0 30px 0;
+  display: flex;
+  position: relative;
+}
+.mission{
+width:40%;
+}
+.values-images{
+width:60%;
+position: relative;
+}
+#cheetah, #bigfive{
+  width:400px;
+  height: 300px;;
+}
+#cheetah{
+position: relative;
+top:230px;
+left:0;
+z-index: 1;
+height: 40vh;
+}
+/* background image relative position */
+#bigfive{
+position: absolute;
+left:20%; 
+top:0;
+z-index:2;
+}
+.mission{
+  font-family: Roboto;
+}
+.mission h3{
+  font-size: 24px;
+  margin: 0 0 5px 0;
+  text-shadow: 2px 2px 5px #102406;
+}
+.mission p{
+  font-size: 18px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.card{
+  border-radius: 10px;
+  box-shadow: 0 0 6px #102406 ;
+  cursor: pointer;
+}
+/* .card:hover{
+  transition: rotate(180deg);
+} */
+.card img{
+  width: 100%;
+}
+.card-body{
+  text-align: center;
+}
+.team{
+  position: relative;
+  top:50px;
+}
+.team h3{
+  color: #102406;
+  font-size: 48px;
+  text-align: center;
+}
+.team hr{
+width: 50%;  
+height: 2px;   
+background-color: #102406;
+border-width: 4px;  
+margin: auto  ;
+}
+#grace{
+  height: 180px;
+  object-fit: cover;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom:-55px;
+  background-color:rgba(196, 196, 196, 0.3) ;
+}
+footer p{
+  font-family: Roboto Mono;
+  font-weight: bold;
+  font-size:24px;
+  color: black;
+}
+footer i{
+  margin-right: 10px;
+}
